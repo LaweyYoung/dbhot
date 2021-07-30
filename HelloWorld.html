@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +10,7 @@
     <div id="app">
         <h1>{{message}}</h1>
         <h2>{{name}}</h2>
+	<h1>{{age}}</h2>
     </div>
 
     <script src="../js/vue.js"></script>
@@ -20,7 +21,8 @@
             el:'#app',//用于挂载要管理的元素
             data:{//定义数据
                 message:'Hello World!',
-                name:'lawey'
+                name:'lawey',
+		age:23
             }
         })
     </script>
